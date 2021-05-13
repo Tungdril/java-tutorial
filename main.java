@@ -10,7 +10,8 @@ public class Main {
         char chartest = 'L';
         final boolean isCool = true;
 
-        System.out.print(name+", "+age+", "+height+"m"+", "+chartest+", "+"Cool? "+isCool);
+        System.out.printf(name+", "+age+", "+height+"m"+", "+chartest+", "+"Cool? "+isCool);
+        System.out.println("\r");
 
         //int x = 13, y = 6587, z = -452;
         //System.out.println("\n"+x+y+z);
@@ -67,7 +68,7 @@ public class Main {
         \\          -> \
 
         \n  -> new line
-        \r  -> carriage return (same as \n)
+        \r  -> carriage return (same as \n, but doesn't leave a free line)
         \t  -> tab
         \b  -> backspace
         \f  -> form feed (next page)
