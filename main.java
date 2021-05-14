@@ -54,8 +54,8 @@ public class Main {
         //String training
         String text = "ABCDEFGHIJKLMNOPQRSTUVWXYZ ";
         
-        System.out.println(text.toLowerCase() + "Lenght: " + text.length());
-        System.out.println(text.indexOf("C"));
+        System.out.println(text.toLowerCase() + "Lenght: " + text.length()); //transforms text into lower case and prints its lenght
+        System.out.println(text.indexOf("C"));  //prints the position of "C" in text, returns -1 if not found                                              
  
         String firstName = "Tungdril";
         String lastName = "Goldhand";
@@ -90,7 +90,7 @@ public class Main {
         int if1 = 265;
         int if2 = 23176;
         int if3 = 265;
-        if (if1 > if2) {
+        if (if1 > if2) {    
             System.out.println("if1 is cool af");
           } else if(if1!=if3){
             System.out.println("they do be the same tho");
@@ -99,7 +99,7 @@ public class Main {
           }
           
 
-        /* Ternary operator (shortform) syntax: variable = (condition) ? expressionTrue :  expressionFalse;
+        /* Ternary operator (shortform) -> syntax: variable = (condition) ? expressionTrue :  expressionFalse;
         Long form:
           int time = 20;
             if (time < 18) {
@@ -160,11 +160,11 @@ public class Main {
 
         //Loop training
         
-        int i = 0;
+        int i = 0;                  //executes as long as i is under 5
         while(i<5){
             System.out.println(i);
             i++;
-            if(i==2){
+            if(i==2){               //should skip 2, but doesn't?  (╯°□°）╯︵ ┻━┻
                 break;
             }
         }
@@ -209,7 +209,9 @@ public class Main {
 
         System.out.println(multi[1][2]);
     }
-        //Method training: See speshl.java
+        //Advanced training: See Advanced.java
+
+        //Class training: See Classes.java
         
 }
 

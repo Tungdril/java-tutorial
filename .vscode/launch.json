@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Advanced",
+            "request": "launch",
+            "mainClass": "Advanced",
+            "projectName": "java-tutorial_eec29f49"
+        },
+        {
+            "type": "java",
             "name": "Launch speshl",
             "request": "launch",
             "mainClass": "speshl",
