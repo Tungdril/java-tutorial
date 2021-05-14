@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch EndMe",
+            "request": "launch",
+            "mainClass": "EndMe",
+            "projectName": "java-tutorial_eec29f49"
+        },
+        {
+            "type": "java",
+            "name": "Launch Classes",
+            "request": "launch",
+            "mainClass": "Classes",
+            "projectName": "java-tutorial_eec29f49"
+        },
+        {
+            "type": "java",
             "name": "Launch Advanced",
             "request": "launch",
             "mainClass": "Advanced",

@@ -1,10 +1,12 @@
 // import jdk.tools.jlink.resources.plugins; I didn't put this here
 
 public class Main {
+    String traveller = "I'm from another class!";       //is called later in Classes.java
+
     public static void main(String[] args){
         //System.out.println("Hello World!"); 
         //Variable training 
-        String name = "Tungdril";
+        String name = "Tungdril";               
         int age = 17;
         float height = 1.80f;
         char chartest = 'L';
