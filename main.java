@@ -1,6 +1,6 @@
 // import jdk.tools.jlink.resources.plugins; I didn't put this here
 
-public class Main {
+public class Main { 
     String traveller = "I'm from another class!";       //is called later in Classes.java
 
     public static void main(String[] args){
