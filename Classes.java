@@ -9,6 +9,7 @@ public class Classes {
 
         Main nameObj = new Main();
         System.out.println(nameObj.traveller);
-
+        
+        
     }
 }
